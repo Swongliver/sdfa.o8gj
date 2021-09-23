@@ -1,0 +1,32 @@
+#title{
+    font-size:30px;
+    
+}
+#snap{
+    background-color:rgb(96, 201, 96) ;
+}
+#snap:hover{
+background-color: red;
+}
+body{
+    background-image: url("mustache.jpg");
+}
+canvas{
+animation-name:example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes example{
+from{box-shadow: 1px 1px 38px yellow}
+to{box-shadow: 1px 1px 38px red}
+}
+#title{
+    animation-name:example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes example2{
+    from{box-shadow: 1px 1px 38px red}
+    to{box-shadow: 1px 1px 38px orange}
+    }
+           
